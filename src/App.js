@@ -1,8 +1,13 @@
-App({
-  render(){
-    <div>
-      <h1>This is a person:</h1>
-      <Person />
-    </div>
+import React from 'react';
+
+export class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <p wrapIf="">
+          <span />
+        </p>
+      </div>
+    );
   }
-});
+}
